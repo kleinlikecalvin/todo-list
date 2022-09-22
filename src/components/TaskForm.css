@@ -1,0 +1,15 @@
+.TaskForm {
+  display: flex;
+  flex-direction: column;
+}
+.TaskForm input,
+.TaskForm select {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.TaskForm button {
+  width: 300px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
