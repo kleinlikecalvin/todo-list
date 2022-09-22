@@ -1,0 +1,21 @@
+.Task {
+  display: block;
+  width: 300px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: left;
+  background-color: white;
+}
+.Task input[type="checkbox"] {
+  margin: 0 5px 0 0;
+}
+.Task .task-details-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.Task .task-details-cont p {
+  margin: 0;
+}
